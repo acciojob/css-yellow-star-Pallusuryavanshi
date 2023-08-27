@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
- #star-five {
+ .star {
       margin: 50px 0;
       position: relative;
       display: block;
@@ -11,7 +11,7 @@
       border-left: 100px solid transparent;
       transform: rotate(35deg);
     }
-    #star-five:before {
+    .star:before {
       border-bottom: 80px solid yellow;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
@@ -24,7 +24,7 @@
       content: '';
       transform: rotate(-35deg);
     }
-    #star-five:after {
+    .star:after {
       position: absolute;
       display: block;
       color: yellow;
